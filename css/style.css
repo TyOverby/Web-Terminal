@@ -1,7 +1,7 @@
 *,body
 {
    font-family: "monospace", "Droid Sans Mono", "Courier New", "Consolas", Monospace;
-   color:white;
+   color:#AAAAAA;
    font-size: 10pt;
    cursor: text;
    line-height:1.3em;
@@ -19,10 +19,29 @@ body
 }
 #textbox
 {
+   position:relative;
+   left:-1px;
    width:100%;
    height:1.2em;
+   
    border:0px;
    background-color:#111;
    outline: none; 
    overflow:visible;
+}
+
+.white
+{
+    color:#AAAAAA;
+}
+
+.blue
+{
+    font-weight: bold;
+    color:#4682B4;
+}
+
+.tab
+{
+    margin-right:16px;
 }
